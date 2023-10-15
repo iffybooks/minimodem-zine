@@ -1,4 +1,4 @@
-<img title="" src="images/ade32cf7d73fefcf9bb6089d50b370b8b91eeabd.png" alt="Minimodem_Zine_Cover.png" data-align="center" width="361">
+<img title="" src="images/ade32cf7d73fefcf9bb6089d50b370b8b91eeabd.png" alt="Minimodem_Zine_Cover.png" data-align="center" width="474">
 
 <div style="page-break-after: always;"></div>
 
@@ -52,6 +52,8 @@ Run the following command to see a list of options for minimodem:
 minimodem --help
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Sound to tape
 
 ❏ Plug an audio cable into your computer's headphone output and connect the other side to the "line in" port on your tape recorder.
@@ -86,9 +88,13 @@ If you don't see anything onscreen or the output is jumbled, try adjusting the t
 clear
 ```
 
-## Audio file to data
+## Modem audio file to text file
 
-❏ Plug an audio cable into your computer's headphone output and connect the other side to the "line in" port on your tape recorder.
+If you want to convert an audio file containing modem audio directly to a text file, you can use a command like the one below. The file `modem_audio.wav` is a WAV audio file containing text data encoded at 100 baud. This command will write the text to a new file called `output_file.txt`.
+
+```
+minimodem --rx 100 -q --file modem_audio.wav > output_file.txt
+```
 
 ## Convert an image file to base64 text
 
@@ -120,9 +126,9 @@ Use an alternate color setting:
 ascii-image-converter -d 80,50 -c photo.jpg > photo.txt
 ```
 
-## Image file to ASCII art (color)
-
 <div style="page-break-after: always;"></div>
+
+## Image file to ASCII art (color)
 
 ```
 ascii-image-converter -d 80,50 -C photo.jpg > photo.txt
@@ -163,8 +169,6 @@ ffmpeg -i "video_file.webm" -vf fps=1/1 img%03d.jpg
 <br />
 <br />
 <br />
-
-<img src="images/453eacede0b6ddf49a2ebc7bb7bad9b852f26d35.png" title="" alt="Ditto_pin_v3.png" width="95">
 
 **Anti-copyright 2023**
 
