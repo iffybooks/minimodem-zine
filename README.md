@@ -1,4 +1,4 @@
-<img title="" src="images/c752b0751a1b36dde70b40bef76ba853b18b599c.png" alt="Minimodem_Zine_Cover.png" width="403" data-align="center">
+<img title="" src="images/ade32cf7d73fefcf9bb6089d50b370b8b91eeabd.png" alt="Minimodem_Zine_Cover.png" data-align="center" width="361">
 
 <div style="page-break-after: always;"></div>
 
