@@ -24,6 +24,8 @@ For this workshop we'll only be working with plaintext data.
 cd ~/Desktop
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Convert text to sound at 100 baud
 
 ❏ Run the following command, substituting the name of your text file if it's different. The "|" character is called a pipe; you can find it above the backslash on your keyboard.
@@ -44,6 +46,8 @@ cat input_file.txt | minimodem --write 5 -f modem_audio.wav
 
 In the file explorer, find the WAV file you just created. To play it back, right-click the file and open it with VLC.
 
+<div style="page-break-after: always;"></div>
+
 ## More minimodem options
 
 Run the following command to see a list of options for minimodem:
@@ -51,8 +55,6 @@ Run the following command to see a list of options for minimodem:
 ```
 minimodem --help
 ```
-
-<div style="page-break-after: always;"></div>
 
 ## Sound to tape
 
@@ -88,6 +90,8 @@ If you don't see anything onscreen or the output is jumbled, try adjusting the t
 clear
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Modem audio file to text file
 
 If you want to convert an audio file containing modem audio directly to a text file, you can use a command like the one below. The file `modem_audio.wav` is a WAV audio file containing text data encoded at 100 baud. This command will write the text to a new file called `output_file.txt`.
@@ -103,6 +107,8 @@ minimodem --rx 100 -q --file modem_audio.wav > output_file.txt
 ```
 base64 photo.jpg > photo_base64.txt
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Check the size of a file
 
@@ -126,13 +132,13 @@ Use an alternate color setting:
 ascii-image-converter -d 80,50 -c photo.jpg > photo.txt
 ```
 
-<div style="page-break-after: always;"></div>
-
 ## Image file to ASCII art (color)
 
 ```
 ascii-image-converter -d 80,50 -C photo.jpg > photo.txt
 ```
+
+<div style="page-break-after: always;"></div>
 
 Alternate color setting:
 
@@ -167,16 +173,21 @@ ffmpeg -i "video_file.webm" -vf fps=1/1 img%03d.jpg
 <br />
 <br />
 <br />
+
+<img src="images/1297802d662a37d2e50f8226a98a834411a74a06.png" title="" alt="Ditto_pin_v3.png" width="116">
+
+**Anti-copyright 2023**
+
 <br />
 <br />
 
-**Anti-copyright 2023**
+### Iffy Books&nbsp;
+
+**319 N. 11th St. #2I, PHL**
 
 **iffybooks.net**
 
 <br />
-<br />
 
-**Iffy Books**&nbsp;
-
-**319 N. 11th St. #2I, PHL**
+**Many thanks to our supporters!**<br />
+**https://iffybooks.net/donate**
